@@ -20,9 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4312277734621976}
   - component: {fileID: 33295116427819394}
-  - component: {fileID: 64750642535191794}
   - component: {fileID: 23699293997150232}
-  m_Layer: 0
+  - component: {fileID: 68660272612577434}
+  - component: {fileID: 50481852346763978}
+  - component: {fileID: 251296428442755620}
+  m_Layer: 9
   m_Name: B3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575052226164728}
   m_LocalRotation: {x: 0, y: 0, z: 0.0032288067, w: 0.9999948}
-  m_LocalPosition: {x: 0, y: -6.22, z: 19}
-  m_LocalScale: {x: 44, y: 18, z: 1}
+  m_LocalPosition: {x: 0, y: -1.14, z: 0}
+  m_LocalScale: {x: 17, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -81,17 +83,60 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575052226164728}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64750642535191794
-MeshCollider:
+--- !u!50 &50481852346763978
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575052226164728}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
+--- !u!68 &68660272612577434
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575052226164728}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.13}
+  m_EdgeRadius: 0.2
+  m_Points:
+  - {x: -0.49091193, y: -0.0014936328}
+  - {x: -0.26928374, y: 0.34174305}
+  - {x: 0.01226425, y: -0.008484282}
+  - {x: 0.48276365, y: 0.022908017}
+--- !u!251 &251296428442755620
+PlatformEffector2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575052226164728}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_UseColliderMask: 0
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 257
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1

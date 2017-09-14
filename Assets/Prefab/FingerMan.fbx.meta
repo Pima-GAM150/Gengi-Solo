@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: af29479e8eafada4ca40188c420a1e75
+timeCreated: 1502744768
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hand
+    100004: Index1
+    100006: Index2
+    100008: Index3
+    100010: Middle1
+    100012: Middle2
+    100014: Middle3
+    100016: Palm
+    100018: Pinky1
+    100020: Pinky2
+    100022: Pinky3
+    100024: Ring1
+    100026: Ring2
+    100028: Ring3
+    100030: Thumb1
+    100032: Thumb2
+    100034: Wrist
+    400000: //RootNode
+    400002: Hand
+    400004: Index1
+    400006: Index2
+    400008: Index3
+    400010: Middle1
+    400012: Middle2
+    400014: Middle3
+    400016: Palm
+    400018: Pinky1
+    400020: Pinky2
+    400022: Pinky3
+    400024: Ring1
+    400026: Ring2
+    400028: Ring3
+    400030: Thumb1
+    400032: Thumb2
+    400034: Wrist
+    2300000: Hand
+    3300000: Hand
+    4300000: Hand
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Hand
+    - Wrist
+    - Wrist/Palm
+    - Wrist/Palm/Index1
+    - Wrist/Palm/Index1/Index2
+    - Wrist/Palm/Index1/Index2/Index3
+    - Wrist/Palm/Middle1
+    - Wrist/Palm/Middle1/Middle2
+    - Wrist/Palm/Middle1/Middle2/Middle3
+    - Wrist/Palm/Pinky1
+    - Wrist/Palm/Pinky1/Pinky2
+    - Wrist/Palm/Pinky1/Pinky2/Pinky3
+    - Wrist/Palm/Ring1
+    - Wrist/Palm/Ring1/Ring2
+    - Wrist/Palm/Ring1/Ring2/Ring3
+    - Wrist/Palm/Thumb1
+    - Wrist/Palm/Thumb1/Thumb2
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

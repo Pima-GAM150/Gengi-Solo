@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af29479e8eafada4ca40188c420a1e75
+guid: 3823bd4d6c0efb844898e64a57c0de6e
 timeCreated: 1502744768
 licenseType: Free
 ModelImporter:
@@ -56,8 +56,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 1
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'Head' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 

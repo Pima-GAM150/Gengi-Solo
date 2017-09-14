@@ -20,9 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4503027197122306}
   - component: {fileID: 33390846774904630}
-  - component: {fileID: 64711992130026270}
   - component: {fileID: 23395033316875356}
-  m_Layer: 0
+  - component: {fileID: 68808329059863392}
+  - component: {fileID: 50696369865818870}
+  - component: {fileID: 251487847517376782}
+  m_Layer: 9
   m_Name: Car5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575957362978154}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -8, z: 10}
-  m_LocalScale: {x: 11.4, y: 4.8, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.017277958, w: 0.99985075}
+  m_LocalPosition: {x: 0, y: -2.57, z: -1}
+  m_LocalScale: {x: 5, y: 2.75, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.98}
 --- !u!23 &23395033316875356
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -81,17 +83,64 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575957362978154}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64711992130026270
-MeshCollider:
+--- !u!50 &50696369865818870
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575957362978154}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
+--- !u!68 &68808329059863392
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575957362978154}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.02}
+  m_EdgeRadius: 0.02
+  m_Points:
+  - {x: -0.49519956, y: -0.0114011755}
+  - {x: -0.38849714, y: 0.15117048}
+  - {x: -0.23382978, y: 0.21253455}
+  - {x: -0.097933516, y: 0.45195496}
+  - {x: 0.19087094, y: 0.4908108}
+  - {x: 0.29101348, y: 0.4276928}
+  - {x: 0.38969955, y: 0.31025147}
+  - {x: 0.49279937, y: 0.3249312}
+--- !u!251 &251487847517376782
+PlatformEffector2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575957362978154}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_UseColliderMask: 0
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 257
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 150
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
